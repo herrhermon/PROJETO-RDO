@@ -1,0 +1,19 @@
+node_modules/
+dist/
+build/
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/*.db-wal
+backend/data/*.db-shm
+backend/uploads/*
+!backend/uploads/.gitkeep
+.env
+*.local
+.DS_Store
+
+# Backups do banco (contêm dados reais e hashes de senha)
+backend/data/*.backup-*
+backend/data/*.bak
+
+# Logs de execução
+*.log

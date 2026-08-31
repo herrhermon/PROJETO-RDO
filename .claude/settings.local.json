@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /tmp/backlog_unzip)",
+      "Read(//tmp/**)",
+      "Bash(unzip -o -q \"C:\\\\Users\\\\hermo\\\\ClaudeCode\\\\EQTec - Backlog do Produto - Diário de Obras - R00.docx\")",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
